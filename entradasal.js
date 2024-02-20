@@ -1,5 +1,5 @@
-import * as THREE from 'three';
-import { OrbitControls } from 'https://unpkg.com/three@0.141.0/examples/jsm/controls/OrbitControls.js'; 
+import * as THREE from 'https://unpkg.com/three@0.141.0/examples/jsm/controls/OrbitControls.js';
+import { OrbitControls } from 'https://unpkg.com/three@0.141.0/examples/jsm/'; 
 
 let camera, controls;
 let renderer;
