@@ -15,9 +15,15 @@
             
          </div>
          <canvas class="webgl"></canvas>
-         <script src="https://unpkg.com/three@0.141.0/build/three.min.js"></script>
-         <script src="https://unpkg.com/three@0.141.0/examples/jsm/controls/OrbitControls.js"></script>
-         <script type="module" src="salinas.js"></script> 
+         <script type="importmap">
+            {
+               "imports": {
+                  "three": "https://unpkg.com/three@0.159.0/build/three.module.js",
+                  "three/addons/": "./jsm/"                  
+               }
+            }
+         </script>
+         <script type="module" src="./salinas.js"></script> 
 
       </body> 
 </html>
