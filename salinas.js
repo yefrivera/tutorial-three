@@ -1,5 +1,5 @@
-import * as THREE from 'three.min.js';
-import {OrbitControls} from 'OrbitControls.js'; 
+import * as THREE from './three.min.js';
+import {OrbitControls} from './OrbitControls.js'; 
 
 let camera, controls;
 let renderer;
